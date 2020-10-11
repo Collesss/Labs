@@ -1,0 +1,10 @@
+C:\Users\Сергей\source\repos\Labs\YaP-LR-01C\bin\Debug\YaP-LR-01C.exe.config
+C:\Users\Сергей\source\repos\Labs\YaP-LR-01C\bin\Debug\YaP-LR-01C.exe
+C:\Users\Сергей\source\repos\Labs\YaP-LR-01C\bin\Debug\YaP-LR-01C.pdb
+C:\Users\Сергей\source\repos\Labs\YaP-LR-01C\obj\Debug\YaP-LR-01C.csprojAssemblyReference.cache
+C:\Users\Сергей\source\repos\Labs\YaP-LR-01C\obj\Debug\YaP_LR_01C.FormLab1.resources
+C:\Users\Сергей\source\repos\Labs\YaP-LR-01C\obj\Debug\YaP_LR_01C.Properties.Resources.resources
+C:\Users\Сергей\source\repos\Labs\YaP-LR-01C\obj\Debug\YaP-LR-01C.csproj.GenerateResource.cache
+C:\Users\Сергей\source\repos\Labs\YaP-LR-01C\obj\Debug\YaP-LR-01C.csproj.CoreCompileInputs.cache
+C:\Users\Сергей\source\repos\Labs\YaP-LR-01C\obj\Debug\YaP-LR-01C.exe
+C:\Users\Сергей\source\repos\Labs\YaP-LR-01C\obj\Debug\YaP-LR-01C.pdb
