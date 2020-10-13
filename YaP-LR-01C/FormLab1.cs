@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace YaP_LR_01C
@@ -22,14 +15,12 @@ namespace YaP_LR_01C
             double x, a;
             x = double.Parse(textBoxX.Text);
             a = double.Parse(textBoxA.Text);
-
             OutputL(x, a);
         }
 
         private void OutputL(double x, double a)
         {
             double l = CalculateL(x, a);
-
             textBoxL.Text = l.ToString();
         }
 
@@ -41,25 +32,30 @@ namespace YaP_LR_01C
             {
                 double ax = Math.Pow(a, x);
 
-                l = Math.Max(x, ax);
+                if (x > ax)
+                    l = x;
+                else
+                    l = ax;
             }
             else if (x > 1)
                 l = 0;
             else
             {
-                double min1, min2, min3, min, sinx;
-
+                double min1, min2, min3, min;
                 min1 = (x - a) / x;
-
                 min2 = Math.Sqrt(a) + x;
+                min3 = Math.Pow(Math.Sin(x), 2);
 
-                sinx = Math.Sin(x);
-                min3 = sinx * sinx;
+                if (min1 < min2)
+                    min = min1;
+                else
+                    min = min2;
 
-                min = Math.Min(min1, min2);
-                l = Math.Min(min, min3);
+                if (min < min3)
+                    l = min;
+                else
+                    l = min3;
             }
-
             return l;
         }
 

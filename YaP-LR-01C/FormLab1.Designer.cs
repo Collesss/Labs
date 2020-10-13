@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelText5L = new System.Windows.Forms.Label();
             this.textBoxL = new System.Windows.Forms.TextBox();
             this.buttonCalculate = new System.Windows.Forms.Button();
             this.labelText1Red = new System.Windows.Forms.Label();
@@ -40,16 +40,16 @@
             this.buttonExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // labelText5L
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(50, 130);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(16, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "l:";
+            this.labelText5L.AutoSize = true;
+            this.labelText5L.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelText5L.Location = new System.Drawing.Point(50, 130);
+            this.labelText5L.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelText5L.Name = "labelText5L";
+            this.labelText5L.Size = new System.Drawing.Size(16, 19);
+            this.labelText5L.TabIndex = 0;
+            this.labelText5L.Text = "l:";
             // 
             // textBoxL
             // 
@@ -69,7 +69,7 @@
             this.buttonCalculate.Name = "buttonCalculate";
             this.buttonCalculate.Size = new System.Drawing.Size(90, 50);
             this.buttonCalculate.TabIndex = 2;
-            this.buttonCalculate.Text = "Вычислить\r\nr=f(x, y, z)";
+            this.buttonCalculate.Text = "Вычислить\r\nl=f(x, a)";
             this.buttonCalculate.UseVisualStyleBackColor = true;
             this.buttonCalculate.Click += new System.EventHandler(this.buttonCalculate_Click);
             // 
@@ -92,9 +92,9 @@
             this.labelText2.Location = new System.Drawing.Point(150, 15);
             this.labelText2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelText2.Name = "labelText2";
-            this.labelText2.Size = new System.Drawing.Size(355, 19);
+            this.labelText2.Size = new System.Drawing.Size(342, 19);
             this.labelText2.TabIndex = 4;
-            this.labelText2.Text = "Вычислить значение условной функции r=f(x, y, z)";
+            this.labelText2.Text = "Вычислить значение условной функции l=f(x, a)";
             // 
             // textBoxA
             // 
@@ -162,7 +162,7 @@
             this.Controls.Add(this.labelText1Red);
             this.Controls.Add(this.buttonCalculate);
             this.Controls.Add(this.textBoxL);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelText5L);
             this.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormLab1";
@@ -174,7 +174,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelText5L;
         private System.Windows.Forms.TextBox textBoxL;
         private System.Windows.Forms.Button buttonCalculate;
         private System.Windows.Forms.Label labelText1Red;
