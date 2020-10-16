@@ -48,7 +48,7 @@
             this.labelText5L.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelText5L.Name = "labelText5L";
             this.labelText5L.Size = new System.Drawing.Size(16, 19);
-            this.labelText5L.TabIndex = 0;
+            this.labelText5L.TabIndex = 8;
             this.labelText5L.Text = "l:";
             // 
             // textBoxL
@@ -59,7 +59,7 @@
             this.textBoxL.Name = "textBoxL";
             this.textBoxL.ReadOnly = true;
             this.textBoxL.Size = new System.Drawing.Size(100, 24);
-            this.textBoxL.TabIndex = 1;
+            this.textBoxL.TabIndex = 3;
             // 
             // buttonCalculate
             // 
@@ -68,7 +68,7 @@
             this.buttonCalculate.Margin = new System.Windows.Forms.Padding(4);
             this.buttonCalculate.Name = "buttonCalculate";
             this.buttonCalculate.Size = new System.Drawing.Size(90, 50);
-            this.buttonCalculate.TabIndex = 2;
+            this.buttonCalculate.TabIndex = 4;
             this.buttonCalculate.Text = "Вычислить\r\nl=f(x, a)";
             this.buttonCalculate.UseVisualStyleBackColor = true;
             this.buttonCalculate.Click += new System.EventHandler(this.buttonCalculate_Click);
@@ -82,7 +82,7 @@
             this.labelText1Red.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelText1Red.Name = "labelText1Red";
             this.labelText1Red.Size = new System.Drawing.Size(123, 28);
-            this.labelText1Red.TabIndex = 3;
+            this.labelText1Red.TabIndex = 9;
             this.labelText1Red.Text = "Задание:";
             // 
             // labelText2
@@ -93,7 +93,7 @@
             this.labelText2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelText2.Name = "labelText2";
             this.labelText2.Size = new System.Drawing.Size(342, 19);
-            this.labelText2.TabIndex = 4;
+            this.labelText2.TabIndex = 10;
             this.labelText2.Text = "Вычислить значение условной функции l=f(x, a)";
             // 
             // textBoxA
@@ -103,7 +103,7 @@
             this.textBoxA.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxA.Name = "textBoxA";
             this.textBoxA.Size = new System.Drawing.Size(100, 24);
-            this.textBoxA.TabIndex = 8;
+            this.textBoxA.TabIndex = 2;
             // 
             // labelText4A
             // 
@@ -123,7 +123,7 @@
             this.textBoxX.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxX.Name = "textBoxX";
             this.textBoxX.Size = new System.Drawing.Size(100, 24);
-            this.textBoxX.TabIndex = 10;
+            this.textBoxX.TabIndex = 1;
             // 
             // labelText3X
             // 
@@ -133,7 +133,7 @@
             this.labelText3X.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelText3X.Name = "labelText3X";
             this.labelText3X.Size = new System.Drawing.Size(20, 19);
-            this.labelText3X.TabIndex = 9;
+            this.labelText3X.TabIndex = 6;
             this.labelText3X.Text = "x:";
             // 
             // buttonExit
@@ -143,7 +143,7 @@
             this.buttonExit.Margin = new System.Windows.Forms.Padding(4);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(90, 50);
-            this.buttonExit.TabIndex = 11;
+            this.buttonExit.TabIndex = 5;
             this.buttonExit.Text = "Выход";
             this.buttonExit.UseVisualStyleBackColor = true;
             this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
@@ -164,7 +164,9 @@
             this.Controls.Add(this.textBoxL);
             this.Controls.Add(this.labelText5L);
             this.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "FormLab1";
             this.Text = "ЛБ «Программирование алгоритмов разветвляющихся структур»";
             this.ResumeLayout(false);

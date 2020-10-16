@@ -1,0 +1,12 @@
+C:\Users\lesikov\source\repos\Lab\Labs\YaP-LR-02_C\bin\Debug\YaP-LR-02_C.exe.config
+C:\Users\lesikov\source\repos\Lab\Labs\YaP-LR-02_C\bin\Debug\YaP-LR-02_C.exe
+C:\Users\lesikov\source\repos\Lab\Labs\YaP-LR-02_C\bin\Debug\YaP-LR-02_C.pdb
+C:\Users\lesikov\source\repos\Lab\Labs\YaP-LR-02_C\obj\Debug\YaP_LR_02_C.FormLab2.resources
+C:\Users\lesikov\source\repos\Lab\Labs\YaP-LR-02_C\obj\Debug\YaP_LR_02_C.Properties.Resources.resources
+C:\Users\lesikov\source\repos\Lab\Labs\YaP-LR-02_C\obj\Debug\YaP-LR-02_C.csproj.GenerateResource.cache
+C:\Users\lesikov\source\repos\Lab\Labs\YaP-LR-02_C\obj\Debug\YaP-LR-02_C.csproj.CoreCompileInputs.cache
+C:\Users\lesikov\source\repos\Lab\Labs\YaP-LR-02_C\obj\Debug\YaP-LR-02_C.exe
+C:\Users\lesikov\source\repos\Lab\Labs\YaP-LR-02_C\obj\Debug\YaP-LR-02_C.pdb
+D:\OneDrive\Programs\Lab2\YaP-LR-02_C.exe.config
+D:\OneDrive\Programs\Lab2\YaP-LR-02_C.exe
+D:\OneDrive\Programs\Lab2\YaP-LR-02_C.pdb
