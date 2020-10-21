@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.listBoxArgX = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelText2X = new System.Windows.Forms.Label();
             this.textBoxA = new System.Windows.Forms.TextBox();
             this.buttonCalculate = new System.Windows.Forms.Button();
             this.buttonExit = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.labelText4A = new System.Windows.Forms.Label();
+            this.labelText1T = new System.Windows.Forms.Label();
+            this.labelText5B = new System.Windows.Forms.Label();
             this.textBoxB = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelText6H = new System.Windows.Forms.Label();
             this.textBoxH = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelText7N = new System.Windows.Forms.Label();
             this.textBoxN = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.labelText8M = new System.Windows.Forms.Label();
             this.textBoxMultiple = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.labelText3F = new System.Windows.Forms.Label();
             this.listBoxFuncX = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
@@ -57,15 +57,15 @@
             this.listBoxArgX.Size = new System.Drawing.Size(171, 310);
             this.listBoxArgX.TabIndex = 0;
             // 
-            // label1
+            // labelText2X
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(9, 169);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 17);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Аргумент (x)";
+            this.labelText2X.AutoSize = true;
+            this.labelText2X.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelText2X.Location = new System.Drawing.Point(9, 169);
+            this.labelText2X.Name = "labelText2X";
+            this.labelText2X.Size = new System.Drawing.Size(88, 17);
+            this.labelText2X.TabIndex = 1;
+            this.labelText2X.Text = "Аргумент (x)";
             // 
             // textBoxA
             // 
@@ -97,35 +97,35 @@
             this.buttonExit.UseVisualStyleBackColor = true;
             this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
-            // label2
+            // labelText4A
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(422, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 17);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Начальное значение";
+            this.labelText4A.AutoSize = true;
+            this.labelText4A.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelText4A.Location = new System.Drawing.Point(422, 22);
+            this.labelText4A.Name = "labelText4A";
+            this.labelText4A.Size = new System.Drawing.Size(144, 17);
+            this.labelText4A.TabIndex = 5;
+            this.labelText4A.Text = "Начальное значение";
             // 
-            // label3
+            // labelText1T
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(12, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(250, 17);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Задание протабулировать функцию";
+            this.labelText1T.AutoSize = true;
+            this.labelText1T.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelText1T.Location = new System.Drawing.Point(12, 22);
+            this.labelText1T.Name = "labelText1T";
+            this.labelText1T.Size = new System.Drawing.Size(250, 17);
+            this.labelText1T.TabIndex = 6;
+            this.labelText1T.Text = "Задание протабулировать функцию";
             // 
-            // label4
+            // labelText5B
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(429, 51);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 17);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Конечное значение";
+            this.labelText5B.AutoSize = true;
+            this.labelText5B.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelText5B.Location = new System.Drawing.Point(429, 51);
+            this.labelText5B.Name = "labelText5B";
+            this.labelText5B.Size = new System.Drawing.Size(137, 17);
+            this.labelText5B.TabIndex = 8;
+            this.labelText5B.Text = "Конечное значение";
             // 
             // textBoxB
             // 
@@ -135,15 +135,15 @@
             this.textBoxB.Size = new System.Drawing.Size(100, 23);
             this.textBoxB.TabIndex = 7;
             // 
-            // label5
+            // labelText6H
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(531, 80);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 17);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Шаг";
+            this.labelText6H.AutoSize = true;
+            this.labelText6H.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelText6H.Location = new System.Drawing.Point(531, 80);
+            this.labelText6H.Name = "labelText6H";
+            this.labelText6H.Size = new System.Drawing.Size(35, 17);
+            this.labelText6H.TabIndex = 10;
+            this.labelText6H.Text = "Шаг";
             // 
             // textBoxH
             // 
@@ -153,15 +153,15 @@
             this.textBoxH.Size = new System.Drawing.Size(100, 23);
             this.textBoxH.TabIndex = 9;
             // 
-            // label6
+            // labelText7N
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(538, 109);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(28, 17);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "n =";
+            this.labelText7N.AutoSize = true;
+            this.labelText7N.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelText7N.Location = new System.Drawing.Point(538, 109);
+            this.labelText7N.Name = "labelText7N";
+            this.labelText7N.Size = new System.Drawing.Size(28, 17);
+            this.labelText7N.TabIndex = 12;
+            this.labelText7N.Text = "n =";
             // 
             // textBoxN
             // 
@@ -172,15 +172,15 @@
             this.textBoxN.Size = new System.Drawing.Size(100, 23);
             this.textBoxN.TabIndex = 11;
             // 
-            // label7
+            // labelText8M
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(441, 286);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(231, 17);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Произведение значений функций";
+            this.labelText8M.AutoSize = true;
+            this.labelText8M.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelText8M.Location = new System.Drawing.Point(441, 286);
+            this.labelText8M.Name = "labelText8M";
+            this.labelText8M.Size = new System.Drawing.Size(231, 17);
+            this.labelText8M.TabIndex = 14;
+            this.labelText8M.Text = "Произведение значений функций";
             // 
             // textBoxMultiple
             // 
@@ -191,15 +191,15 @@
             this.textBoxMultiple.Size = new System.Drawing.Size(100, 23);
             this.textBoxMultiple.TabIndex = 13;
             // 
-            // label8
+            // labelText3F
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(205, 169);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(85, 17);
-            this.label8.TabIndex = 16;
-            this.label8.Text = "Функция f(x)";
+            this.labelText3F.AutoSize = true;
+            this.labelText3F.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelText3F.Location = new System.Drawing.Point(205, 169);
+            this.labelText3F.Name = "labelText3F";
+            this.labelText3F.Size = new System.Drawing.Size(85, 17);
+            this.labelText3F.TabIndex = 16;
+            this.labelText3F.Text = "Функция f(x)";
             // 
             // listBoxFuncX
             // 
@@ -215,26 +215,26 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 517);
-            this.Controls.Add(this.label8);
+            this.ClientSize = new System.Drawing.Size(717, 517);
+            this.Controls.Add(this.labelText3F);
             this.Controls.Add(this.listBoxFuncX);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.labelText8M);
             this.Controls.Add(this.textBoxMultiple);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.labelText7N);
             this.Controls.Add(this.textBoxN);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.labelText6H);
             this.Controls.Add(this.textBoxH);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.labelText5B);
             this.Controls.Add(this.textBoxB);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelText1T);
+            this.Controls.Add(this.labelText4A);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonCalculate);
             this.Controls.Add(this.textBoxA);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelText2X);
             this.Controls.Add(this.listBoxArgX);
             this.Name = "FormLab2";
-            this.Text = "Form1";
+            this.Text = "Тема 1.5. ЛР «Программирование алгоритмов регулярных циклических структур»";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -243,21 +243,21 @@
         #endregion
 
         private System.Windows.Forms.ListBox listBoxArgX;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelText2X;
         private System.Windows.Forms.TextBox textBoxA;
         private System.Windows.Forms.Button buttonCalculate;
         private System.Windows.Forms.Button buttonExit;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelText4A;
+        private System.Windows.Forms.Label labelText1T;
+        private System.Windows.Forms.Label labelText5B;
         private System.Windows.Forms.TextBox textBoxB;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelText6H;
         private System.Windows.Forms.TextBox textBoxH;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelText7N;
         private System.Windows.Forms.TextBox textBoxN;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label labelText8M;
         private System.Windows.Forms.TextBox textBoxMultiple;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelText3F;
         private System.Windows.Forms.ListBox listBoxFuncX;
     }
 }
