@@ -41,8 +41,8 @@ namespace YaP_LR_02_C
                 if (func > 0)
                     p *= func;
                 
-                listBoxArgX.Items.Add(x);
-                listBoxFuncX.Items.Add(func);
+                listBoxArgX.Items.Add(x.ToString("F2"));
+                listBoxFuncX.Items.Add(func.ToString("F2"));
             }
 
             textBoxN.Text = (n - 1).ToString();
